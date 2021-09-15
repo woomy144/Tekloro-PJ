@@ -1,0 +1,64 @@
+
+    body{
+        background: url(../img/bg.png);
+        font-size: 30px;
+        z-index: 100;
+        display: block;
+        font-family: Arial;
+        width: 100%;
+        height: 100%;
+        }
+        html, body {
+            overflow: hidden;
+            height: 100%;
+            display: block;
+            z-index: 100;
+            margin: 0px;
+            -webkit-overflow-scrolling: touch;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+          }
+.panel{
+position: absolute;
+background-color: #25282e;
+color: #a8a9ab;
+height: 100%;
+width: 350px;
+left: 1100px;
+}
+.timer{
+font-size: 30px;
+top: 300px;
+position: absolute;
+}
+.movback{
+position: absolute;
+background: linear-gradient(-45deg, #ffffff, #000000, #00bbff, #00ff00);
+width: 100%;
+height: 100%;
+z-index: -1;
+animation: movees 1s ease infinite;
+}
+@keyframes movees {
+0%
+{background-position-x: 0%;}
+50%
+{background-position: 50%;}
+100%
+{background-position: 100%;}
+}
+.redline{
+width: 300px;
+height: 20px;
+position: absolute;
+background-color: red;
+animation: lineanim 5s ease infinite;
+}
+@keyframes lineanim{
+0%{width: 300px}
+25%{width: 250px;}
+50%{width: 150px;}
+75%{width: 50px;}
+100%{width: 0px;}
+}
