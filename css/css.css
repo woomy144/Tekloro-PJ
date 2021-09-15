@@ -1,0 +1,105 @@
+body{
+background: url(../img/bg.png);
+font-size: 30px;
+z-index: 100;
+display: block;
+font-family: Arial;
+width: 100%;
+height: 100%;
+}
+html, body {
+	overflow: hidden;
+	height: 100%;
+    display: block;
+    z-index: 100;
+    margin: 0px;
+	-webkit-overflow-scrolling: touch;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+  }
+  .redimline {
+    background-color: rgb(255 255 255);
+    position: absolute;
+    width: 1%;
+    transition: 1s;
+    height: 90px;
+    top: 350px;
+    box-shadow: 0 0px 30px #0221ff;
+}
+.redimline:hover {
+    background-color: rgb(255 255 255);
+    position: absolute;
+    width: 250px;
+    transition: 1s;
+    height: 90px;
+    top: 350px;
+    box-shadow: 0 0px 30px #0221ff;
+}
+@keyframes Shadowa{
+    0% {
+        position: 0 50%;
+    }
+    50% {
+       position: 100% 50%;
+    }
+    100% {
+        position: 0 50%;
+    }
+}
+.errortext {
+    font-size: 80px;
+    text-shadow: 0 0 60px #0014ff, 0 0 6px #0051ff;
+    color: white;
+    position: absolute;
+    transition: ease 1s;
+}
+.menline{
+    box-shadow: 0 0px 30px rgb(0, 4, 255);
+width: 100%;
+background-color: rgb(255, 255, 255);
+height: 99px;
+position: absolute;
+}
+.menlineb{
+width: 100%;
+background-color: black;
+height: 95px;
+position: absolute;
+}
+.micon {
+    display: block;
+    transition: 1s;
+    position: absolute;
+    top: 3.5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.dstext{
+Color: rgb(98, 98, 199);
+font-size: 40px;
+overflow: hidden;
+left: 90px;
+top: 2px;
+}
+.butplay {
+    background-color: rgb(207, 207, 207);
+    width: 140px;
+    top: 22px;
+    left: 280px;
+    height: 50px;
+    position: absolute;
+    border-radius: 10%;
+}
+
+.textplay {
+    Color: rgb(0, 26, 255);
+    font-size: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    transition: 1s;
+    left: 38px;
+    top: -12px;
+}
