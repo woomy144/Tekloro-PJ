@@ -12,6 +12,9 @@
 <div class="tanknamebox">
 <h1 class="gameinfo">Basic</h1>
 </div>
+    <?php
+    echo:"cum"
+    ?>
 </div>
     <!--Beta buttons-->
 <div class="redimline">
