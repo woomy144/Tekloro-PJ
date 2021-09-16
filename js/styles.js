@@ -133,3 +133,20 @@ lo.onclick = () => {
     b = !b;
 move();
   };
+var Teexxt = [
+"Token_Fuck_You_Token"
+"Token_Worldcumshot_Token"
+"Token_HH_Token"
+    "Token_889_Token"
+"Token_939kf_Token"
+"Token_HH_Token"
+    "Token_6^#fj2a_Token"
+"Token_Bt1ff*!(4_Token"
+"Token_234I954895*#*($@*((#_Token"
+    "Token_44GJ@##$_Token"
+"Token_Op1f()()@#fun_Token"
+"Token_Function_no_token_(){}_Token"
+    "Token_Hj2$(*@)(JF_Token"
+"Token_"{@klr#iorjfo(#_Token"
+"Token_FFJ39_1RFG*#&$_Token"
+ console.log(fuck[Math.floor(Math.random()*fuck.length)]);
