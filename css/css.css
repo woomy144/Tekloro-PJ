@@ -83,6 +83,10 @@ overflow: hidden;
 left: 90px;
 top: 2px;
 }
+sa:link, sa:visited {
+    color: rgb(98, 98, 199);
+    text-decoration: none;
+}
 .butplay {
     background-color: rgb(207, 207, 207);
     width: 140px;
