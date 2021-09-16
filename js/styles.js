@@ -147,9 +147,9 @@ var Teexxt = [
 "Token_Op1f()()@#fun_Token",
 "Token_Function_no_token_(){}_Token",
     "Token_Hj2$(*@)(JF_Token",
-"Token_"{@klr#iorjfo(#_Token",
+"Token_{@klr#iorjfo(#_Token",
 "Token_FFJ39_1RFG*#&$_Token"
-],
+]
     setInterval(() =>{
  console.log(Teexxt[Math.floor(Math.random()*Teexxt.length)]);
     },1000)
