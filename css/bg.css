@@ -1,10 +1,8 @@
 
-a:link {
-    text-decoration-line: none;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
+a:link, a:visited {
     color: White;
-  }
+    text-decoration: none;
+}
 
 .menubox {
     position: absolute;
