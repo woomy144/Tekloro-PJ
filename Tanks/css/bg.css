@@ -145,8 +145,8 @@ cursor: pointer;
 }
 .entityimg {
     position: absolute;
-    width: 132px;
+    width: 200px;
     top: 30px;
-    height: 100px;
+    height: 200px;
     left: 48px;
 }
