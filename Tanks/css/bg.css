@@ -146,7 +146,7 @@ cursor: pointer;
 .entityimg {
     position: absolute;
     width: 130px;
-    top: 30px;
+    top: 0px;
     height: 130px;
-    left: 48px;
+    left: 46px;
 }
