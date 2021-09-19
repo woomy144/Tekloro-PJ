@@ -40,6 +40,7 @@ let ope7 = document.getElementById("i")
 let ope8 = document.getElementById("o")
 let ope9 = document.getElementById("3")
 let ope10 = document.getElementById("d")
+let ope11 = document.getElementById("dd")
 setInterval(() =>{
     ope1.style.color = "#b10505";
     },3000)
@@ -70,6 +71,9 @@ setInterval(() =>{
                                     setInterval(() =>{
                                         ope10.style.color = "#8892b0";
                                         },3900)
+                                        setInterval(() =>{
+                                            ope11.style.color = "#8892b0";
+                                            },4000)
 //opacity 0
 setInterval(() =>{
     ope1.style.color = "white";
@@ -101,26 +105,6 @@ setInterval(() =>{
                                     setInterval(() =>{
                                         ope10.style.color = "white";
                                         },5900)
-                                        var smallaudio2 = new Audio();
-                                        smallaudio2.src =
-                                        "./Music/575472_SkullOgg.mp3";
-                                      function PlaySound211() {
-                                        smallaudio2.play();
-                                      }
-
-document.getElementById("codestart").onclick = () => {
-var inputVal = document.getElementById("playerKeyInput").value;
-if (inputVal === "")
-return (
-setTimeout(alert("Please enter a code or command"), 30000)
-);
-if (inputVal === "/List")
-return (
-    setTimeout(alert("Codes-2fg2G_(0)_Ae,   919jgewe_1,   JFGio+(),"), 30000)
-);
-if (inputVal === "2fg2G_(0)_Ae")
-return (
-    PlaySound211()
-);
-t();
-};
+                                        setInterval(() =>{
+                                            ope11.style.color = "white";
+                                            },6000)
